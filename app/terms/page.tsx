@@ -1,5 +1,5 @@
-import TermsRenderer from "@/app/terms/TemsRenderer";
-import {Chapter} from "@/app/terms/Types";
+import {Chapter} from "@/app/_components/Types";
+import TermsRenderer from "@/app/_components/TemsRenderer";
 
 export default function TermsPage() {
     const terms: Chapter[] = [

@@ -1,5 +1,5 @@
-import ClauseBlock from "@/app/terms/ClausBlock";
-import {Article} from "@/app/terms/Types";
+import ClauseBlock from "@/app/_components/ClausBlock";
+import {Article} from "@/app/_components/Types";
 
 export default function ArticleBlock({article}: { article: Article }) {
     return (

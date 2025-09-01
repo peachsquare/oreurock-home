@@ -1,4 +1,4 @@
-import {Clause} from "@/app/terms/Types";
+import {Clause} from "@/app/_components/Types";
 
 export default function ClauseBlock({clause}: { clause: Clause }) {
     if (typeof clause === 'string') {

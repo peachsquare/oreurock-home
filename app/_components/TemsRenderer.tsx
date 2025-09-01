@@ -1,5 +1,5 @@
-import ArticleBlock from "@/app/terms/ArticleBlock";
-import {Chapter} from "@/app/terms/Types";
+import {Chapter} from "@/app/_components/Types";
+import ArticleBlock from "@/app/_components/ArticleBlock";
 
 export default function TermsRenderer({terms}: { terms: Chapter[] }) {
     return (
